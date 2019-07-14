@@ -15,9 +15,8 @@ install:
   - npm run generate
 
 script:
-  - echo "Tests"
   - npm run test
-  - ls
+  - npm run lint
 
 deploy:
   provider: pages
