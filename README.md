@@ -1,7 +1,3 @@
-# codemonsters
-
-> My bee&#39;s knees Nuxt.js project
-
 ## Build Setup
 
 ``` bash
@@ -17,6 +13,8 @@ $ npm run start
 
 # generate static project
 $ npm run generate
-```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+# deploy github pages
+$ npm run generate
+$ npm run deploy
+```
