@@ -1,7 +1,7 @@
 const colors = require('vuetify/es5/util/colors').default
 
 module.exports = {
-  router: { base: '/gh-pages/' },
+  router: { base: '/' },
   mode: 'universal',
   /*
   ** Headers of the page
