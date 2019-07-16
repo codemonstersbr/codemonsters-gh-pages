@@ -14,9 +14,9 @@ install:
   - npm install
   - npm run generate
 
-script:
-  - npm run test
-  - npm run lint
+#script:
+#  - npm run test
+#  - npm run lint
 
 deploy:
   provider: pages
