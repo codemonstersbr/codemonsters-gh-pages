@@ -1,119 +1,10 @@
 <template>
   <main>
     <section id="topo">
-      <v-container>
-        <v-layout
-          justify-center
-          align-center
-        >
-          <v-flex xs12 sm6>
-             <v-card>
-               <v-card-title primary-title>
-                 <div>
-                   <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
-                 </div>
-               </v-card-title>
-               <v-card-text>
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-               </v-card-text>
-               <v-card-actions>
-                 <v-spacer />
-                 <v-btn color="orange">Explore</v-btn>
-               </v-card-actions>
-             </v-card>
-           </v-flex>
-           <v-flex xs12 sm6>
-             <img src="/monster.png"></img>
-            </v-flex>
-        </v-layout>
-      </v-container>
+      <topo />
     </section>
     <section id="tecnologias">
-      <v-container fluid grid-list-lg>
-        <v-layout>
-          <h1>asdssad</h1>
-        </v-layout>
-        <v-layout>
-          <v-flex xs12 sm4>
-             <v-card>
-               <v-card-title primary-title>
-                 <div>
-                   <h3 class="headline mb-0">Desenvolvimento Web</h3>
-                 </div>
-               </v-card-title>
-               <v-card-text>
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                 <v-list>
-                  <v-list-tile avatar>
-                    <v-list-tile-avatar>
-                      <img src="/monster.png">
-                    </v-list-tile-avatar>
-                    <v-list-tile-content>
-                      <v-list-tile-title>PHP</v-list-tile-title>
-                    </v-list-tile-content>
-                  </v-list-tile>
-                </v-list>
-               </v-card-text>
-               <v-card-actions>
-                 <v-spacer />
-                 <v-btn color="orange">Explore</v-btn>
-               </v-card-actions>
-             </v-card>
-           </v-flex>
-          <v-flex xs12 sm4>
-             <v-card>
-               <v-card-title primary-title>
-                 <div>
-                   <h3 class="headline mb-0">Desenvolvimento Web</h3>
-                 </div>
-               </v-card-title>
-               <v-card-text>
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                 <v-list>
-                  <v-list-tile avatar>
-                    <v-list-tile-avatar>
-                      <img src="/monster.png">
-                    </v-list-tile-avatar>
-                    <v-list-tile-content>
-                      <v-list-tile-title>PHP</v-list-tile-title>
-                    </v-list-tile-content>
-                  </v-list-tile>
-                </v-list>
-               </v-card-text>
-               <v-card-actions>
-                 <v-spacer />
-                 <v-btn color="orange">Explore</v-btn>
-               </v-card-actions>
-             </v-card>
-           </v-flex>
-          <v-flex xs12 sm4>
-             <v-card>
-               <v-card-title primary-title>
-                 <div>
-                   <h3 class="headline mb-0">Desenvolvimento Web</h3>
-                 </div>
-               </v-card-title>
-               <v-card-text>
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                 <v-list>
-                  <v-list-tile avatar>
-                    <v-list-tile-avatar>
-                      <img src="/monster.png">
-                    </v-list-tile-avatar>
-                    <v-list-tile-content>
-                      <v-list-tile-title>PHP</v-list-tile-title>
-                    </v-list-tile-content>
-                  </v-list-tile>
-                </v-list>
-               </v-card-text>
-               <v-card-actions>
-                 <v-spacer />
-                 <v-btn color="orange">Explore</v-btn>
-               </v-card-actions>
-             </v-card>
-           </v-flex>
-        </v-layout>
-      </v-container>
+      <tecnologias />
     </section>
     <!-- <section id="clientes">
       <v-container>
@@ -125,33 +16,22 @@
       </v-container>
     </section> -->
     <section id="contato">
-      <v-container>
-        <v-layout>
-          <v-flex xs12 sm6 offset-sm3>
-             <v-card>
-               <v-card-title primary-title>
-                 <div>
-                   <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
-                 </div>
-               </v-card-title>
-               <v-card-text>
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                 <v-text-field>
-                 </v-text-field>
-               </v-card-text>
-               <v-card-actions>
-                 <v-spacer />
-                 <v-btn color="orange">Explore</v-btn>
-               </v-card-actions>
-             </v-card>
-           </v-flex>
-        </v-layout>
-      </v-container>
+      <contato />
     </section>
   </main>
 </template>
 <script>
-export default {}
+import Topo from '../components/Topo'
+import Tecnologias from '../components/Tecnologias'
+import Contato from '../components/Contato'
+
+export default {
+  components: {
+    Topo,
+    Tecnologias,
+    Contato
+  }
+}
 </script>
 
 <style lang="stylus">
